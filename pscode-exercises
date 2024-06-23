@@ -12,7 +12,11 @@ print on the screen the sum of those 2 numbers
 
 // Exercise 2: Check if a Number is Even or Odd
 
-(Your pseudocode here)
+Ask the user for a number.
+Use modulo (%) to check if the number is divisible by 2.
+- remainder is 0, the number is even.
+- remainder is not 0, the number is odd.
+Print the result
 
 // Exercise 3: 
 Write pseudo code that will perform the following.    
@@ -22,6 +26,48 @@ b) Calculate the average of the five numbers.
 c) Find the smallest (minimum) and largest (maximum) of the five entered numbers.
 d) Write out the results found from steps b and c with a message describing what they are
 
-(Your pseudocode here)
+------------------------------------------------------------------------------------------
+a) Prompt user for n1
+-  Prompt user for n2
+-  Prompt user for n3
+-  Prompt user for n4
+-  Prompt user for n5
+
+------------------------------------------------------------------------------------------
+b) Average is all numbers added divided by 5
+   sum = n1 + n2 + n3 + n4 + n5
+   average = sum / 5
+   print average
+
+------------------------------------------------------------------------------------------
+c) Determine the smallest and largest of the five numbers
+For smallest
+n1 > n2, then smallest is n2
+  - otherwise smallest is n1
+n3 < smallest, then smallest is n3
+n4 < smallest, then smallest is n4
+n5 < smallest, then smallest is n5
+Print smallest
+
+For biggest
+n1 < n2, then biggest is n2
+  - otherwise biggest is n1
+n3 > biggest, then biggest is n3
+n4 > biggest, then biggest is n4
+n5 > biggest, then biggest is n5
+Print biggest
+
+------------------------------------------------------------------------------------------
+c) Write out the results found from steps b and c with a message describing what they are
+
+Perform calculations in step b
+store result in varaible named "avg"
+Print out the message "The average of the five numbers is: " + avg
+
+Perform calculations in step b
+Store smallest number in varaible named "min"
+Store largest number in variable named "max"
+Print out the message "The smallest of the five numbers is: " + min
+Print out the message "The largest of the five numbers is: " + max
 
 -- END --
