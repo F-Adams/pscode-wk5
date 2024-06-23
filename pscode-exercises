@@ -34,7 +34,7 @@ a) Prompt user for n1
 -  Prompt user for n5
 
 ------------------------------------------------------------------------------------------
-b) Average is all numbers added divided by 5
+b) Average is sum of all numbers divided by 5
    sum = n1 + n2 + n3 + n4 + n5
    average = sum / 5
    print average
